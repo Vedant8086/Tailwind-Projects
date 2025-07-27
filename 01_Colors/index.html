@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colors In Tailwind</title>
-    
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Colors In Tailwind</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdn.tailwindcss.com">
+    </head>
+    <body>
+        <h1
+            class="text-5xl font-bold text-center text-gray-100 bg-gray-800 p-4 shadow-xl">
+            Dark Mode Heading
+        </h1>
+        <div class="flex gap-20">
+            <p class="text-slate-900">This is Paragraph</p>
+            <p class="text-emrald-900">This is Paragraph</p>
+            <p class="text-red-900">This is Paragraph</p>
+            <p class="text-blue-900">This is Paragraph</p>
+            <p class="text-yellow-900">This is Paragraph</p>
+        </div>
+        <p class="text-white bg-gray-800">This is Paragraph</p>
+        <p class="text-emrald-900 bg-yellow-500">This is Paragraph</p>
+        <p class="text-red-900 bg-blue-500">This is Paragraph</p>
+        <p class="text-blue-900 bg-red-500">This is Paragraph</p>
+        <p class="text-yellow-900 bg-pink-500">This is Paragraph</p>
+        <br>
+        <br>
+
+        <p class="underline decoration-blue-900 text-yellow-600 bg-cyan-500">This is Paragraph</p>
+
+
+        <!-- Input Box Styling -->
+        <label for="myInput">My Input:</label>
+        <input type="text" id="myInput" class="input_class border border-green-900 h-12 w-90" title="Enter your text" placeholder="Type here...">
+
+    </body>
 </html>
